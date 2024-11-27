@@ -92,7 +92,7 @@ header nav {
 h1 {
 	font-size: 54px;
 	line-height: 60px;
-	color: #565c93;
+	color: #e7e7e7;
 	margin: 0;
 }
 
@@ -135,4 +135,20 @@ h3 {
 h2 {
 	color: #fff;
 	font-size: 60px;
+}
+
+.acting-text {
+	grid-column: 2 / 8;
+	background-color: #862834;
+	align-self: center;
+}
+
+.acting-image {
+	grid-column: 8 / 12;
+	background-color: #862834;
+	align-self: center;
+}
+
+.acting-img {
+	width: 100%;
 }

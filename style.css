@@ -3,12 +3,12 @@
 body {
 	font-family: "Anton", sans-serif;
 	margin: 0;
-	background-color: aqua;
+	background-color: rgb(0, 0, 0);
 }
 
 .wrapper {
 	width: 1200px;
-	background-color: aqua;
+	background-color: rgb(3, 9, 9);
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -32,7 +32,7 @@ body {
 
 header {
 	grid-column: 1 / 13;
-	background color: #B63A2D;
+	background-color: #b63a2d;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
@@ -65,9 +65,8 @@ header nav ul li a {
 
 header img {
 	grid-column: 1 /5;
-	background-color: paleturquoise;
+	background-color: #b63a2d;
 	align-self: center;
-
 }
 
 header nav {
@@ -82,8 +81,8 @@ header nav {
 }
 
 .hero-image {
-	grid-column: 7 / 13;
-	background-color: greenyellow;
+	grid-column: 10 / 13;
+	background-color: #862834;
 }
 
 .hero-image img {
@@ -93,7 +92,7 @@ header nav {
 h1 {
 	font-size: 54px;
 	line-height: 60px;
-	font-weight: #565C93;
+	color: #565c93;
 	margin: 0;
 }
 
@@ -113,7 +112,7 @@ h3 {
 
 .button {
 	padding: 15px 30px;
-	background-color: #60413E;
+	background-color: #60413e;
 	display: inline-block;
 	border-radius: 3px;
 	text-decoration: none;
@@ -123,17 +122,17 @@ h3 {
 
 .hero-text {
 	grid-column: 1 / 7;
-	background-color: yellow;
+	background-color: #862834;
 	align-self: center;
 }
 
 .hero-image {
-	grid-column: 7/ 13;
-	background-color: green;
+	grid-column: 7 / 13;
+	background-color: #862834;
 	align-self: center;
 }
 
 h2 {
-	color: ;
-	font-size: 36px;
+	color: #fff;
+	font-size: 60px;
 }
